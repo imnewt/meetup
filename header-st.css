@@ -31,7 +31,7 @@ a:link {
 
 .start-new {
 	color: #00a2c7 !important;
-	font-size: 1.1rem;
+	font-size: .95rem;
 	font-weight: 600;
 	margin-right: 20px;
 }
@@ -46,7 +46,7 @@ a:link {
 
 .account a {
 	color: #585858;
-	font-size: 1.1rem;
+	font-size: .95rem;
 	margin-right: 20px;
 }
 
