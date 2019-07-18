@@ -6,7 +6,7 @@ body {
 
 .activities-container {
 	display: flex;
-	border-bottom: 1px solid #EEE;
+	border-bottom: 1px solid #e8e8e8;
 	justify-content: center;
 	padding: 15px 0;
 }
@@ -15,8 +15,7 @@ body {
 	display: block;
 	text-decoration: none;
 	color: #111;
-	font-weight: ;
-	padding: 8px 16px;
+	padding: 4px 16px;
 }
 
 .activities {
