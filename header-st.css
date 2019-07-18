@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+
+.header {
+	--background-color: black;
+	display: flex;
+	align-items: center;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.header > .logo {
+	flex-grow: 1;
+}
+
+.logo a {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.logo a img {
+	width: 125px;
+	height: 44px;
+	display: block;
+}
+
+.start-new {
+	color: #00a2c7 !important;
+	font-size: 1.1rem;
+	font-weight: 600;
+	margin-right: 20px;
+}
+
+.header p {
+	font-size: 25px;
+	font-weight: 100;
+	color: #cacaca;
+	margin-right: 20px;
+	user-select: none;
+}
+
+.account a {
+	color: #585858;
+	font-size: 1.1rem;
+	margin-right: 20px;
+}
+
+.account a:hover {
+	color: #0098ab;
+}
