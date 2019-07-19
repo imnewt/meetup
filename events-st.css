@@ -12,7 +12,7 @@ a {
 	width: 67rem;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 1.5rem;
+	margin-top: 3rem;
 }
 
 .heading {
@@ -63,7 +63,6 @@ a {
 
 .event-info:hover {
 	transform: translate(0, -2px);
-	--transition: all 0.3s;
 }
 
 .event-info div {
@@ -82,10 +81,6 @@ a {
 	font-size: 1.3rem;
 }
 
-.event-holder {
-	--font-weight: lighter;
-}
-
 .events .event-place {
 	font-size: .9rem;
 	color: #6f6f6f;
@@ -102,10 +97,6 @@ a {
 	align-items: center;
 	position: absolute;
 	bottom: 5px;
-}
-
-.events .event-attend span {
-	--flex-grow: 1;
 }
 
 .events .event-attend a {
