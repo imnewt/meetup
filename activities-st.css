@@ -16,11 +16,13 @@ body {
 	text-decoration: none;
 	color: #111;
 	padding: 4px 16px;
+	font-size: .9rem;
+	user-select: none;
 }
 
 .activities {
 	background-color: #f6f4f499;
-	margin: 10px 15px;
+	margin: 10px;
 	border: 1px solid #bbb;
 	border-radius: 4px;
 }
