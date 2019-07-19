@@ -1,0 +1,122 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.heading-block {
+	width: 67rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1.5rem;
+}
+
+.heading {
+	display: flex;
+}
+
+.heading-name {
+	flex-grow: 1;
+	user-select: none;
+}
+
+.heading .heading-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 0.4rem;
+	display: block;
+}
+
+.heading .heading-explain {
+	font-size: 1rem;
+	display: block;
+	margin-bottom: 1.5rem;
+}
+
+.heading .heading-link {
+	color: #00a2c7;
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.events {
+	display: flex;
+	width: 68rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.event-info {
+	border-radius: 5px;
+	box-shadow: .2px 2px 12px rgba(0, 0, 0, .2);
+	width: 20rem;
+	padding: 1rem 1rem;
+	margin-right: 1rem;
+	height: 200px;
+	position: relative;
+}
+
+.event-info:hover {
+	transform: translate(0, -2px);
+	transition: all 0.3s;
+}
+
+.event-info div {
+	margin: .7rem 0;
+	user-select: none;
+}
+
+.event-info .event-time {
+	color: #0098ab;
+	font-size: .8rem;
+	font-weight: bold;
+}
+
+.event-content {
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+.event-holder {
+	--font-weight: lighter;
+}
+
+.events .event-place {
+	font-size: .9rem;
+	color: #6f6f6f;
+}
+
+.events .event-place i {
+	margin-right: .5rem;
+}
+
+.events .event-attend {
+	font-size: .9rem;
+	color: #6f6f6f;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	bottom: 5px;
+}
+
+.events .event-attend span {
+	--flex-grow: 1;
+}
+
+.events .event-attend a {
+	border: 1px solid #0098ab;
+	margin-left: 9rem;
+	padding: 10px 20px;
+	border-radius: 4px;
+	color: #0098ab;
+	font-weight: bold;
+}
+
+.events .event-attend a:hover {
+	background-color: #0098ab;
+	color: #fff;
+}
