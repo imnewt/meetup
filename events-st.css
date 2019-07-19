@@ -58,11 +58,12 @@ a {
 	margin-right: 1rem;
 	height: 200px;
 	position: relative;
+	transition: all 0.3s;
 }
 
 .event-info:hover {
 	transform: translate(0, -2px);
-	transition: all 0.3s;
+	--transition: all 0.3s;
 }
 
 .event-info div {
