@@ -16,6 +16,7 @@ a:link {
 	height: 500px;
 	width: 100%;
 	overflow: hidden;
+	user-select: none;
 }
 
 .video-container video{
@@ -24,23 +25,23 @@ a:link {
 	object-fit: cover;
 }
 
-.heading-content {
+.video-content {
 	position: absolute;
 	text-align: center;
 	font-size: 1.5rem;
 }
 
-.heading-item h1, h5, .btn-link {
+.video-item h1, h5, .btn-link {
 	color: #fff;
 	margin: 0;
 	padding-bottom: 20px;
 }
 
-.heading-item h5 {
+.video-item h5 {
 	padding-bottom: 70px;
 }
 
-.heading-item .btn-link {
+.video-item .btn-link {
 	border: 1px solid #f13a59;
 	padding: 20px 120px;
 	background-color: #f13a59;
