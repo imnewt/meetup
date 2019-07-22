@@ -1,0 +1,69 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hiw-block {
+	margin-top: 2rem;
+	background-color: #0f1721;
+	color: #fff;
+	height: 24rem;
+	user-select: none;
+}
+
+.hiw-heading {
+	text-align: center;
+	padding: 4rem 0 1rem 0;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.hiw-content .hiw-group-heading {
+	font-size: 1.7rem;
+	font-weight: bold;
+	margin-bottom: .3rem;
+}
+
+.hiw-groups {
+	display: flex;
+	width: 65rem;
+	margin: 3rem auto;
+}
+
+.hiw-groups i {
+	color: #00a2c7;
+}
+
+.hiw-group {
+	display: flex;
+	width: 50%;
+}
+
+.hiw-group-1 {
+	margin-right: 2rem;
+}
+
+.hiw-group-2 {
+	margin-left: 2rem;
+}
+
+.hiw-group .hiw-icon {
+	margin-right: 2rem;
+	font-size: 4rem;
+}
+
+.hiw-link {
+	display: flex;
+	margin-top: 1.5rem;
+}
+
+.hiw-link .hiw-link-content {
+	margin-right: 1rem;
+	color: #00a2c7;
+	font-weight: bold;
+}
