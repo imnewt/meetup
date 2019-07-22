@@ -60,6 +60,11 @@ a {
 .hiw-link {
 	display: flex;
 	margin-top: 1.5rem;
+	margin-right: 16.8rem;
+}
+
+.hiw-spe {
+	margin-right: 17.8rem;
 }
 
 .hiw-link .hiw-link-content {
