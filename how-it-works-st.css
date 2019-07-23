@@ -57,18 +57,23 @@ a {
 	font-size: 4rem;
 }
 
-.hiw-link {
+.hiw-link-1 {
 	display: flex;
 	margin-top: 1.5rem;
-	margin-right: 16.8rem;
+	margin-right: 16.3rem;
 }
 
-.hiw-spe {
-	margin-right: 17.8rem;
+.hiw-link-2 {
+	display: flex;
+	margin-top: 1.5rem;
+	margin-right: 17.3rem;
 }
 
 .hiw-link .hiw-link-content {
-	margin-right: 1rem;
 	color: #00a2c7;
 	font-weight: bold;
+}
+
+.hiw-link .hiw-link-icon {
+	margin-left: 1.5rem;
 }
