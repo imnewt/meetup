@@ -31,16 +31,16 @@ a {
 }
 
 .gta .gta-link {
+	width: 7.9rem;
 	display: flex;
 	margin-bottom: 2rem;
 	margin-right: 30.4rem;
 }
 
 .gta-link-content {
-	margin-right: 1rem;
+	margin-right: 1.5rem;
 	color: #00a2c7;
 	font-weight: bold;
-
 }
 
 .gta-link-icon i {
@@ -48,18 +48,11 @@ a {
 	font-weight: bold;
 }
 
-.gta-getit {
-}
-
 .gta-getit img {
 	width: 10rem;
 	height: 3rem;
 	margin-right: 1.5rem;
 }
-
-/*.gta .gta-img {
-	height: 100%;
-}*/
 
 .gta .gta-img img {
 	margin-right: 20rem;
