@@ -18,7 +18,6 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	--align-items: center;
 	height: 100%;
 	flex-grow: 1;
 	margin-left: 22rem;
@@ -48,10 +47,16 @@ a {
 	font-weight: bold;
 }
 
-.gta-getit img {
+.gta-getit a {
+	display: inline-block;
 	width: 10rem;
 	height: 3rem;
 	margin-right: 1.5rem;
+}
+
+.gta-getit img {
+	width: 100%;
+	height: 100%;
 }
 
 .gta .gta-img img {
